@@ -1,0 +1,160 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    max-height: 100%;
+    margin: 0;
+    overscroll-behavior: none;
+    font-family: "PT Sans", -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Segoe UI", "Roboto", sans-serif;
+    font-weight: 400;
+    line-height: 1.3;
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+    font-size: 1.08em;
+    color: #000000;
+    padding: 0;
+}
+
+.wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+}
+
+header p {
+    margin: auto; 
+    margin-left: 0;
+}
+
+nav {
+    width: 30%;
+    background-color: #972929;
+    position: fixed;
+    height: 100%;
+    overflow-y: auto;
+    scrollbar-width: none;
+    box-shadow: 5px 0px 5px 0px #5e5e5e;
+    padding-bottom: 50px;
+}
+
+nav img {
+    width: 50px;
+    margin: 10px 10px 10px auto;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav li {
+    margin: 5px 0;
+}
+
+nav a:hover {
+    color: #97b7d0;
+}
+
+nav header::after {
+    content: "";
+    height: 2px;
+    background-color: #97b7d0;
+    width: 90%;
+    display: block;
+    margin: 10px 0;
+}
+
+li a {
+    text-decoration: none;
+    color: white;
+}
+
+article {
+    flex: 1; /* Důležitý prvek pro správné fungování flex layoutu */
+    overflow-y: auto;
+    padding: 20px 40px;
+    width: 70%;
+    background: #97b7d0;
+    margin-left: 30%;
+    padding-bottom: 50px;
+}
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    font-size: 40px;
+    text-align: center;
+    font-weight: bold;
+}
+
+h1::before {
+    content: "";
+    height: 2px;
+    background-color: #972929;
+    width: 100%;
+    display: block;
+    margin: 20px 0;
+}
+
+
+/***************************************/
+/*                FOOTER               */
+/***************************************/
+
+footer {
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+    background-color: #972929;
+    z-index: 10;
+    position: relative;
+    width: 70%;
+    margin-left: 30%;
+}
+
+#footer .copyright {
+    color: #ffffff;
+    font-size: 15px; 
+    margin: auto 20px;
+    position: relative;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+footer p, footer a {
+    color: #9fa3a6;
+}
+
+
+
+
+@media (max-width: 768px) {
+    
+    article, nav {
+        width: 100%;
+        margin: 0;
+    }
+
+    nav {
+        position: relative;
+    }
+
+    footer {
+        width: 100%;
+        margin-left: 0;
+        font-size: 10px;
+    }
+
+
+
+
+
+}
