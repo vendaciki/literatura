@@ -97,7 +97,7 @@ header {
     font-weight: bold;
 }
 
-h1 {
+h1, h2 {
     margin-bottom: 10px;
 }
 
@@ -138,7 +138,6 @@ h1::before {
 
 #menu ul a.opener.active + ul, #menu ul span.opener.active + ul {
     display: block; 
-    margin-left: 40px;
 }
 
 #menu ul a.opener.active:before, #menu ul span.opener.active:before {
