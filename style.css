@@ -151,9 +151,13 @@ footer p, footer a {
         width: 100%;
         margin-left: 0;
         font-size: 10px;
+        text-align: center;
+        flex-direction: column-reverse;
     }
 
-
+    #footer .copyright {
+        margin: auto;
+    }
 
 
 
