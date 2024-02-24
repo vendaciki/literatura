@@ -70,7 +70,7 @@ nav header::after {
 
 li a {
     text-decoration: none;
-    color: white;
+    color: #ffffff;
 }
 
 article {
@@ -109,6 +109,46 @@ h1::before {
     display: block;
     margin: 20px 0;
 }
+
+
+
+
+#menu ul a.opener, #menu ul span.opener {
+    position: relative;
+    color: #ffffff;
+}
+
+#menu ul a.opener:before, #menu ul span.opener:before {
+    content: '\f078';
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    position: absolute;
+    right: -30px;
+    transition: color 0.2s ease-in-out, transform 0.2s ease-in-out;
+    color: #ffffff;
+}
+
+#menu ul a.opener:hover:before, #menu ul span.opener:hover:before {
+    color: #97b7d0; 
+}
+
+#menu ul ul {
+    display: none; 
+}
+
+#menu ul a.opener.active + ul, #menu ul span.opener.active + ul {
+    display: block; 
+    margin-left: 40px;
+}
+
+#menu ul a.opener.active:before, #menu ul span.opener.active:before {
+    transform: rotate(-180deg);
+}
+
+
+
+
+
 
 
 /***************************************/
