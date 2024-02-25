@@ -113,6 +113,11 @@ h1::before {
 
 
 
+
+/***************************************/
+/*                OPENER               */
+/***************************************/
+
 #menu ul a.opener, #menu ul span.opener {
     position: relative;
     color: #ffffff;
