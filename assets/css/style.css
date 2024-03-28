@@ -155,8 +155,13 @@ h4, header h2 {
     list-style-type: none;
 }
 
-.smery li {
+.smery p {
     margin: 5px 0;
+}
+
+.smery a {
+    text-decoration: none;
+    color: #ffffff;
 }
 
 .smery a:hover {

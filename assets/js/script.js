@@ -3,7 +3,8 @@ $(document).ready(function() {
     const Data = [
         { label: "Literární druhy", href: "../html/lit-druh.html", iconClass: "fas fa-book" },
         { label: "Literární žánry", href: "../html/lit-zanr.html", iconClass: "fas fa-bookmark" },
-        { label: "Literární směry", href: "../html/lit-smer.html", iconClass: "fas fa-route" },
+        { label: "Literární směry", href: "../html/lit-smer.html", iconClass: "fas fa-paper-plane" },
+        { label: "Figury a Tropy", href: "../html/figury-tropy.html", iconClass: "fas fa-puzzle-piece" },
 
         { label: "Rozbor díla", href: "../html/rozbor.html", iconClass: "fas fa-edit" },
         
