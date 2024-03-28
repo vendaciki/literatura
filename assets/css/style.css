@@ -78,6 +78,11 @@ li a {
     color: #ffffff;
 }
 
+section {
+    width: 90%;
+    margin: 0 auto;
+}
+
 article {
     flex: 1;
     overflow-y: auto;
@@ -212,6 +217,10 @@ footer p, footer a {
 
     article {
         padding: 20px;
+    }
+
+    section {
+        width: 100%;
     }
 
     nav {
