@@ -42,8 +42,9 @@ $(document).ready(function() {
    
 });    
 
-window.addEventListener('touchmove', function() {
-    if (window.scrollY === 0) {
-        window.location.reload(); // Obnovíme stránku, pokud je uživatel na vrcholu stránky
+PullToRefresh.init({
+    mainElement: '#content',
+    onRefresh: function() {
+        location.reload(); // Obnovíme stránku při tahání dolů
     }
 });
