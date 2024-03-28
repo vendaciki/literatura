@@ -41,22 +41,3 @@ $(document).ready(function() {
     createMenuItems( menuItemsContainer);
    
 });    
-
-var startY;
-var threshold = 100; // Minimální vzdálenost potřebná pro obnovu stránky
-
-document.addEventListener('touchstart', function(e) {
-    var touch = e.touches[0];
-    startY = touch.clientY;
-});
-
-document.addEventListener('touchmove', function(e) {
-    if (!startY) return;
-    var touch = e.touches[0];
-    var deltaY = touch.clientY - startY;
-
-    // Pokud je vzdálenost pohybu prstu dolů větší než prahová hodnota, provedeme obnovení stránky
-    if (deltaY > threshold) {
-        location.reload();
-    }
-});
