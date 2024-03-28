@@ -147,6 +147,26 @@ h4, header h2 {
     margin: 0;
 }
 
+.smery {
+    display: grid;
+    margin: 30px auto;
+    grid-template-rows: repeat(6, 1fr);
+    grid-auto-flow: column;
+    list-style-type: none;
+}
+
+.smery li {
+    margin: 5px 0;
+}
+
+.smery a:hover {
+    color: #972929;
+}
+
+
+
+
+
 table {
     border-spacing: 0;
     width: 98%;
@@ -245,7 +265,11 @@ footer p, footer a {
 
     h4, section h2 {
         font-size: 25px;
-    }       
+    }    
+    
+    .smery {
+        grid-auto-flow: row;
+    }
     
 
 
