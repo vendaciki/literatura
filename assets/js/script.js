@@ -5,6 +5,7 @@ $(document).ready(function() {
         { label: "Literární žánry", href: "../html/lit-zanr.html", iconClass: "fas fa-bookmark" },
         { label: "Literární směry", href: "../html/lit-smer.html", iconClass: "fas fa-paper-plane" },
         { label: "Figury a Tropy", href: "../html/figury-tropy.html", iconClass: "fas fa-puzzle-piece" },
+        { label: "Vypravěč", href: "../html/vypravec.html", iconClass: "fas fa-user-circle" },
 
         { label: "Rozbor díla", href: "../html/rozbor.html", iconClass: "fas fa-edit" },
         
