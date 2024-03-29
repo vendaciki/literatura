@@ -36,10 +36,7 @@ $(document).ready(function() {
     
     const menuItemsContainer = document.getElementById('menu-items');
 
-    // Vytvoření první sekce menu
+    // Vytvoření sekce menu
     createMenuItems(Data, menuItemsContainer);
-
-    // Vytvoření druhé sekce menu
-    createMenuItems( menuItemsContainer);
    
 });    
