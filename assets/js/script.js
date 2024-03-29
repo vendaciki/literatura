@@ -4,6 +4,7 @@ $(document).ready(function() {
         { label: "Literární druhy", href: "../html/lit-druh.html", iconClass: "fas fa-book" },
         { label: "Literární žánry", href: "../html/lit-zanr.html", iconClass: "fas fa-bookmark" },
         { label: "Literární směry", href: "../html/lit-smer.html", iconClass: "fas fa-paper-plane" },
+        { label: "Téma, motivy a kompozice", href: "../html/tema-motivy.html", iconClass: "fas fa-comment" },
         { label: "Figury a Tropy", href: "../html/figury-tropy.html", iconClass: "fas fa-puzzle-piece" },
         { label: "Vypravěč", href: "../html/vypravec.html", iconClass: "fas fa-user-circle" },
 
