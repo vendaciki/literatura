@@ -171,6 +171,13 @@ h4, header h2 {
     color: #ffffff;
 }
 
+.cetba th {
+    padding: 10px;
+}
+
+.cetba thead th {
+    text-align: center;
+}
 
 
 
@@ -253,6 +260,7 @@ footer p, footer a {
 
     nav {
         position: relative;
+        padding-bottom: 20px;
     }
 
     footer {
