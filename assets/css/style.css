@@ -217,6 +217,10 @@ h4, header h2 {
     margin-bottom: 10px;
 }
 
+.o-autorovi a:hover {
+    color: #972929;
+}
+
 article header p {
     font-size: 20px;
     width: 100%;
@@ -226,6 +230,14 @@ article header p {
     margin: 20px auto; 
     text-align: center;
     width: 100%;
+}
+
+.zelena {
+    color: #589600;
+}
+
+.cervena {
+    color: #e91e2f;
 }
 
 
