@@ -10,6 +10,7 @@ $(document).ready(function() {
         { label: "Vypravěč", href: "../html/vypravec.html", iconClass: "fas fa-user-circle" },
         { label: "Povinná četba", href: "../html/povinna-cetba.html", iconClass: "fas fa-book-open" },
         { label: "Rozbor díla", href: "../html/rozbor.html", iconClass: "fas fa-edit" },
+        { label: "Autoři", href: "../html/authors.html", iconClass: "fas fa-pencil-alt" },
         
     ];
 
@@ -41,3 +42,14 @@ $(document).ready(function() {
     createMenuItems(Data, menuItemsContainer);
    
 });    
+
+// Funkce pro zamezení kontextového menu
+function disableRightClick(event) {
+    event.preventDefault();
+}
+
+// Připojení události na načtení stránky
+window.onload = function() {
+    // Připojení události na pravé tlačítko myši
+    document.addEventListener("contextmenu", disableRightClick);
+};
