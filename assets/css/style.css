@@ -103,6 +103,10 @@ section h3 {
     margin-left: 20px;
 }
 
+.odstavec a:hover {
+    color: #972929;
+}
+
 #authors {
     width: 100%;
 }
@@ -217,13 +221,18 @@ h4, header h2 {
     display: flex;
 }
 
-.o-autorovi img {
+.o-autorovi img, .odstavec img {
     width: 200px;
     margin-bottom: 10px;
 }
 
 .o-autorovi a:hover {
     color: #972929;
+}
+
+.odstavec img {
+    float: left;
+    margin: 15px 30px 0;
 }
 
 article header p {
