@@ -13,7 +13,7 @@ const Authors = [
     { label: "Dyk, Viktor ", href: "../html/.html" },
     { label: "Eco, Umberto ", href: "../html/.html" },
     { label: "Erben, Karel Jaromír ", href: "../html/.html" },
-    { label: "Ezop", href: "../html/.html" },
+    { label: "Ezop", href: "../html/Ezop.html" },
     { label: "Felscherinow, Christiane", href: "../html/.html" },
     { label: "Fitzgerald, Francis Scott ", href: "../html/.html" },
     { label: "Flaubert, Gustave ", href: "../html/.html" },
