@@ -34,7 +34,7 @@ const Authors = [
     { label: "Komenský, Jan Amos ", href: "../html/.html" },
     { label: "Kundera, Milan", href: "../html/.html" },
     { label: "Lustig, Arnošt ", href: "../html/.html" },
-    { label: "Mácha, Karel Hynek ", href: "../html/.html" },
+    { label: "Mácha, Karel Hynek ", href: "../html/Macha.html" },
     { label: "Maro, Publius Vergilius", href: "../html/Maro.html" },
     { label: "Maupassant, Guy de ", href: "../html/.html" },
     { label: "Moliére, Jean-Baptiste Poquelin ", href: "../html/.html" },
