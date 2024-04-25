@@ -60,7 +60,7 @@ const Authors = [
     { label: "Saavedra, Miguel de Cervantes y ", href: "../html/.html" },
     { label: "Saint-Exupéry, Antoine de", href: "../html/Saint-Exupery.html" },
     { label: "Sapfó", href: "../html/Sapfo.html" },
-    { label: "Shakespeare, William ", href: "../html/.html" },
+    { label: "Shakespeare, William ", href: "../html/Shakespeare.html" },
     { label: "Shaw, George Bernard ", href: "../html/.html" },
     { label: "Sofokles", href: "../html/Sofokles.html" },
     { label: "Steinbeck, John ", href: "../html/.html" },
