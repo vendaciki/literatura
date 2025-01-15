@@ -9,7 +9,6 @@ $(document).ready(function() {
         { label: "Figury a Tropy", href: "../html/figury-tropy.html", iconClass: "fas fa-puzzle-piece" },
         { label: "Vypravěč", href: "../html/vypravec.html", iconClass: "fas fa-user-circle" },
         { label: "Povinná četba", href: "../html/povinna-cetba.html", iconClass: "fas fa-book-open" },
-        { label: "Rozbor díla", href: "../html/rozbor.html", iconClass: "fas fa-edit" },
         { label: "Autoři", href: "../html/authors.html", iconClass: "fas fa-pencil-alt" },
     ];
 
