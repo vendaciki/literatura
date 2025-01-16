@@ -179,8 +179,13 @@ h2, .lit-smery {
     width: 100%;
 }
 
-h4, header h2 {
+header h5, header h4, section h4 {
     margin: 0;
+}
+
+header h3 {
+    margin: 10px 0;
+    width: 100%;
 }
 
 .smery {

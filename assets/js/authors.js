@@ -37,7 +37,7 @@ const Authors = [
     { label: "Mácha, Karel Hynek ", href: "../html/autor/Macha.html" },
     { label: "Maro, Publius Vergilius", href: "../html/autor/Maro.html" },
     { label: "Maupassant, Guy de ", href: "../html/autor/.html" },
-    { label: "Moliére, Jean-Baptiste Poquelin ", href: "../html/autor/.html" },
+    { label: "Moliére, Jean-Baptiste Poquelin ", href: "../html/autor/Moliere.html" },
     { label: "Moravia, Alberto ", href: "../html/autor/.html" },
     { label: "Moyesová, Jojo ", href: "../html/autor/.html" },
     { label: "Mrštík, Alois a Vilém ", href: "../html/autor/.html" },
