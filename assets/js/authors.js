@@ -1,7 +1,7 @@
 const Authors = [
     { label: "Austenová, Jane ", href: "../html/autor/.html" },
     { label: "Balzac, Honoré de ", href: "../html/autor/.html" },
-    { label: "Boccaccio, Giovanni ", href: "../html/autor/.html" },
+    { label: "Boccaccio, Giovanni ", href: "../html/autor/Giovanni-Boccaccio.html" },
     { label: "Borovský, Karel Havlíček ", href: "../html/autor/.html" },
     { label: "Bradbury, Ray Douglas ", href: "../html/autor/.html" },
     { label: "Brontëová, Charlote ", href: "../html/autor/.html" },
