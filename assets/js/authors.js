@@ -31,7 +31,7 @@ const Authors = [
     { label: "Jirotka, Zdeněk ", href: "../html/autor/.html" },
     { label: "John, Radek", href: "../html/autor/.html" },
     { label: "Kafka, Franz ", href: "../html/autor/.html" },
-    { label: "Komenský, Jan Amos ", href: "../html/autor/.html" },
+    { label: "Komenský, Jan Amos ", href: "../html/autor/Jan-Amos-Komensky.html" },
     { label: "Kundera, Milan", href: "../html/autor/.html" },
     { label: "Lustig, Arnošt ", href: "../html/autor/.html" },
     { label: "Mácha, Karel Hynek ", href: "../html/autor/Macha.html" },

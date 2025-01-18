@@ -188,6 +188,19 @@ header h3 {
     width: 100%;
 }
 
+.flex {
+    display: flex;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+
 .smery {
     display: grid;
     margin: 0 auto 30px auto;
