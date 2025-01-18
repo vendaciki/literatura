@@ -200,6 +200,15 @@ header h3 {
     justify-content: space-between;
 }
 
+.w-full {
+    width: 100%;
+}
+
+.ml-4 {
+    margin-left: 1rem;
+}
+
+
 
 .smery {
     display: grid;
