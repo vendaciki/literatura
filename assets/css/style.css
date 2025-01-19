@@ -208,6 +208,21 @@ header h3 {
     margin-left: 1rem;
 }
 
+.ml-6 {
+    margin-left: 1.5rem;
+}
+
+.mt-0 {
+    margin-top: 0;
+}
+
+.mt-2 {
+    margin-top: .5rem;
+}
+
+.mb-2 {
+    margin-bottom: .5rem;
+}
 
 
 .smery {
