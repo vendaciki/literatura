@@ -15,7 +15,7 @@ const Authors = [
     { label: "Erben, Karel Jaromír ", href: "../html/autor/.html" },
     { label: "Ezop", href: "../html/autor/Ezop.html" },
     { label: "Felscherinow, Christiane", href: "../html/autor/.html" },
-    { label: "Fitzgerald, Francis Scott ", href: "../html/autor/.html" },
+    { label: "Fitzgerald, Francis Scott ", href: "../html/autor/F.Scott-Fitzgerald.html" },
     { label: "Flaubert, Gustave ", href: "../html/autor/.html" },
     { label: "Franková, Anne ", href: "../html/autor/.html" },
     { label: "Fuks, Ladislav ", href: "../html/autor/.html" },
