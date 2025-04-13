@@ -144,7 +144,7 @@ header {
     flex-wrap: wrap;
     align-content: center;
     justify-content: center;
-    font-size: 40px;
+    font-size: 30px;
     text-align: center;
     font-weight: bold;
 }
@@ -222,6 +222,10 @@ header h3 {
 
 .mb-2 {
     margin-bottom: .5rem;
+}
+
+.mb-5 {
+    margin-bottom: 1.25rem;
 }
 
 
