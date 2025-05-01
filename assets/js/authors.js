@@ -1,6 +1,6 @@
 const Authors = [
     { label: "Austenová, Jane", href: "../html/autor/.html" },
-    { label: "Balzac, Honoré de", href: "../html/autor/.html" },
+    { label: "Balzac, Honoré de", href: "../html/autor/Honore-de-Balzac.html" },
     { label: "Boccaccio, Giovanni", href: "../html/autor/Giovanni-Boccaccio.html" },
     { label: "Borovský, Karel Havlíček", href: "../html/autor/K-H-Borovsky.html" },
     { label: "Bradbury, Ray Douglas", href: "../html/autor/.html" },
@@ -9,7 +9,7 @@ const Authors = [
     { label: "Camus, Albert", href: "../html/autor/.html" },
     { label: "Coelho, Paulo", href: "../html/autor/.html" },
     { label: "Čapek, Karel", href: "../html/autor/Capek.html" },
-    { label: "Dickens, Charles", href: "../html/autor/.html" },
+    { label: "Dickens, Charles", href: "../html/autor/Charles-Dickens.html" },
     { label: "Dostojevskij, Fjodor Michajlovič", href: "../html/autor/.html" },
     { label: "Dumas, Alexandre", href: "../html/autor/Alexandre-Dumas.html"},
     { label: "Dyk, Viktor", href: "../html/autor/.html" },
