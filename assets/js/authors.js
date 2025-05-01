@@ -18,7 +18,7 @@ const Authors = [
     { label: "Ezop", href: "../html/autor/Ezop.html" },
     { label: "Felscherinow, Christiane", href: "../html/autor/.html" },
     { label: "Fitzgerald, Francis Scott", href: "../html/autor/F.Scott-Fitzgerald.html" },
-    { label: "Flaubert, Gustave", href: "../html/autor/.html" },
+    { label: "Flaubert, Gustave", href: "../html/autor/Gustav-Flaubert.html" },
     { label: "Franková, Anne", href: "../html/autor/.html" },
     { label: "Fuks, Ladislav", href: "../html/autor/.html" },
     { label: "Gogol, Nikolaj Vasiljevič", href: "../html/autor/Nikolaj-Vasiljevic-Gogol.html" },
