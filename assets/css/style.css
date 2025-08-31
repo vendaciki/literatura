@@ -130,7 +130,7 @@ article header::after {
     content: "";
     height: 2px;
     background-color: #972929;
-    width: 90%;
+    width: 100%;
     display: block;
     margin: 30px 0;
 }
@@ -147,6 +147,8 @@ header {
     font-size: 30px;
     text-align: center;
     font-weight: bold;
+    width: 90%;
+    margin: 0 auto;
 }
 
 h1, h2 {

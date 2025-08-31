@@ -100,3 +100,8 @@ function disableRightClick(event) {
 window.onload = function () {
     document.addEventListener("contextmenu", disableRightClick);
 };
+
+
+
+// Nastavení aktuálního roku ve footru
+document.getElementById("year").textContent = new Date().getFullYear();
